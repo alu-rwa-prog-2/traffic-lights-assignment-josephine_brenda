@@ -27,7 +27,7 @@ public class traffic_light {
 		while (true) {
 			// red
 			// 0 cars - 20 secs
-			System.out.println("STOP: Red Light Flickering.");
+			System.out.println("STOP: Red Light Flickering now.");
 			try {
 				Thread.sleep(20000);
 			} catch (InterruptedException e) {
